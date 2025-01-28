@@ -1,9 +1,9 @@
 ## <div align="center">Technologies Used</div>
 
 <div align="center">
+    <img src="https://github.com/user-attachments/assets/023e8297-745b-4ecb-9821-df7e89f5e7c8" width="100"/>
   <img src="https://img.shields.io/badge/JavaFX-007396?style=for-the-badge&logo=java&logoColor=white" width="150"/>
   <img src="https://github.com/user-attachments/assets/ecb85d4b-cc71-44e4-97b4-24ff22ce43e6" width="100"/>
-  <img src="https://github.com/user-attachments/assets/023e8297-745b-4ecb-9821-df7e89f5e7c8" width="100"/>
 </div>
 
 ---
