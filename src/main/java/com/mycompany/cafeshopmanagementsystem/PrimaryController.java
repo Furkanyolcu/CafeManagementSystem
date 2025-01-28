@@ -29,10 +29,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
-/**
- *
- * @author WINDOWS 10
- */
+
 public class PrimaryController implements Initializable {
     
     @FXML
@@ -138,9 +135,9 @@ public class PrimaryController implements Initializable {
                 prepare.setString(2, si_password.getText());
                 
                 result = prepare.executeQuery();
-                // IF SUCCESSFULLY LOGIN, THEN PROCEED TO ANOTHER FORM WHICH IS OUR MAIN FORM 
+
                 if (result.next()) {
-                    // TO GET THE USERNAME THAT USER USED
+                    // TO GET THE USERNAME 
                     data.username = si_username.getText();
                     
                     alert = new Alert(AlertType.INFORMATION);
@@ -164,7 +161,7 @@ public class PrimaryController implements Initializable {
                     
                     si_loginBtn.getScene().getWindow().hide();
                     
-                } else { // IF NOT, THEN THE ERROR MESSAGE WILL APPEAR
+                } else { 
                     alert = new Alert(AlertType.ERROR);
                     alert.setTitle("Error Message");
                     alert.setHeaderText(null);

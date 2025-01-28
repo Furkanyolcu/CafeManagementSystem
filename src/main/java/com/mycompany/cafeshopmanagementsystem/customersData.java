@@ -1,0 +1,50 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.cafeshopmanagementsystem;
+
+import java.sql.Date;
+
+/**
+ *
+ * @author HP
+ */
+public class customersData {
+
+    private Integer id;
+    private Integer customerID;
+    private Integer total;
+    private Date date;
+    private String emUsername;
+
+    public customersData(Integer id, Integer customerID, Integer total,
+            Date date, String emUsername) {
+        this.id = id;
+        this.customerID = customerID;
+        this.total = total;
+        this.date = date;
+        this.emUsername = emUsername;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public Integer getCustomerID() {
+        return customerID;
+    }
+
+    public Integer getTotal() {
+        return total;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public String getEmUsername() {
+        return emUsername;
+    }
+
+}

@@ -92,4 +92,5 @@
             </plugin>
         </plugins>
     </build>
+    <name>cafeShopManagementSystem</name>
 </project>
